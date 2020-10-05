@@ -18,7 +18,7 @@ var Shares = {
       });
       wxSdk.ready(function () {
         console.log('------------------------------')
-        
+        // 自定义“分享给朋友”及“分享到QQ”按钮的分享内容
         wxSdk.updateAppMessageShareData({
           title: title, // 分享标题
           desc: desc, // 分享描述
